@@ -1,0 +1,18 @@
+{
+  "name": "moderation-bot-admin-commands",
+  "version": "1.0.0",
+  "description": "Discord moderation bot with Arabic aliases and role-tier permissions",
+  "main": "src/bot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/bot.js",
+    "check": "node --check src/bot.js"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
